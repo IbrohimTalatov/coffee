@@ -1,0 +1,109 @@
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+  }
+
+*{
+    box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+.visually-hidden {
+	position: absolute ;
+	padding:0;
+	border:0;
+  margin: -1px;
+	height: 1px; 
+	width: 1px; 
+	overflow: hidden;
+}
+body{
+    font-family: "Fraunces" , Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+}
+.container{
+    width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-naw{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 40px ;
+}
+.header-logo{
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+.header-list-naw:nth-child(2){
+    margin-right: 33px;
+    margin-left: 33px;
+}
+.header-link{
+    text-decoration: none;
+    color: #83888F;
+}
+.header-link:hover{
+    color: #000;
+}
+.main-item{
+    padding: 80px 80px;
+}
+.main-item-text{
+    width: 500px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.main-list-item{
+    width: 1200px;
+    height: 600px;
+    background-image: url(../img/Bitmap.png);
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.main-text{
+    width: 450px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+.main-list{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #0E8784;;
+    border-radius: 6px;
+    padding: 16px 31px;
+}
+.main-list:hover{
+    background-color: #66D2CF;
+}
